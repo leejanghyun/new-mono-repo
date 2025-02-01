@@ -1,0 +1,1 @@
+export { StorageType } from "./StorageHelper";

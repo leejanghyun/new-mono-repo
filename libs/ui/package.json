@@ -1,0 +1,14 @@
+{
+  "name": "@leejangheon/ui",
+  "version": "0.1.0",
+  "description": "공통 UI 모듈",
+  "main": "src/index.ts",
+  "scripts": {
+    "lint": "eslint --fix src/**/*.${ts,tsx} --ext .ts,.tsx",
+    "test": "jest"
+  },
+  "dependencies": {
+    "lottie-light-react": "2.4.0",
+    "react-toastify": "^11.0.3"
+  }
+}

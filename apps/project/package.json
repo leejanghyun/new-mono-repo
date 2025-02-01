@@ -1,0 +1,32 @@
+{
+  "name": "@leejangheon/project",
+  "version": "0.1.0",
+  "private": true,
+  "sideEffects": [
+    "*.css"
+  ],
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "playwright:ui": "pnpm playwright test --ui",
+    "playwright:test": "pnpm playwright test",
+    "playwright:report": "pnpm playwright show-report"
+  },
+  "dependencies": {
+    "@leejangheon/ui": "workspace:*",
+    "@leejangheon/utils": "workspace:*",
+    "@tanstack/react-query": "5.64.2",
+    "@vanilla-extract/next-plugin": "2.4.8",
+    "critters": "^0.0.25",
+    "jotai": "2.11.1",
+    "next": "15.1.6",
+    "react-error-boundary": "5.0.0"
+  },
+  "devDependencies": {
+    "@svgr/webpack": "8.1.0",
+    "webpack": "5.97.1",
+    "webpack-merge": "6.0.1"
+  }
+}

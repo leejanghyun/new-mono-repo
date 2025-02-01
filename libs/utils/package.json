@@ -1,0 +1,14 @@
+{
+  "name": "@leejangheon/utils",
+  "version": "0.1.0",
+  "description": "공통 모듈",
+  "main": "src/index.ts",
+  "scripts": {
+    "lint": "eslint --fix src/**/*.${ts,tsx} --ext .ts,.tsx",
+    "test": "jest"
+  },
+  "dependencies": {
+    "md5": "2.3.0",
+    "uuid": "11.0.5"
+  }
+}

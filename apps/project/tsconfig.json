@@ -1,0 +1,29 @@
+{
+  "extends": "../../tsconfig.json",
+  "compilerOptions": {
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ],
+    "paths": {
+      "@/*": ["./app/*"],
+      "@ui/*": ["../../libs/ui/src/*"],
+      "@utils/*": ["../../libs/utils/src/*"],
+      "@leejangheon/ui/*": ["../../libs/ui/src/*"],
+      "@leejangheon/utils/*": ["../../libs/utils/src/*"]
+    },
+    "incremental": true
+  },
+  "include": [
+    "./next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    "types/**/*.ts",
+    ".next/types/**/*.ts",
+    "next.config.ts",
+    "app/styles/global.css.ts",
+    "../../libs/ui/src/styles/globalTheme.css.ts"
+  ],
+  "exclude": ["node_modules"]
+}
